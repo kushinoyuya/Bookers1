@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>課題提出２</title>
+</head>
+<body>
+	<p>Book was successfully created.</p>
+	<p>
+		<strong>Title</strong>
+		"<%= @book.title %>"
+	</p>
+	<p>
+		<strong>Body</strong>
+		"<%= @book.body %>"
+	</p>
+	<p><%= link_to "Edit", edit_book_path %></p>
+	<p><%= link_to "Back", books_path %></p>
+	
+	
+</body>
+</html>
